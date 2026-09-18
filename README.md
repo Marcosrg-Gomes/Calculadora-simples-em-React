@@ -1,16 +1,51 @@
-# React + Vite
+# Calculadora
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de uma calculadora simples feita em React. A aplicação permite realizar operações básicas entre dois números.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Soma
+* Subtração
+* Multiplicação
+* Divisão
+* Limpar os campos
+* Verificação de divisão por zero
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* JSX
+* CSS
+* Vite
 
-## Expanding the ESLint configuration
+## Como executar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Primeiro, instale as dependências:
+
+```bash
+npm install
+```
+
+Depois, execute o projeto:
+
+```bash
+npm run dev
+```
+
+O projeto será iniciado localmente pelo Vite.
+
+## Estrutura
+
+```text
+src/
+├── components/
+│   ├── FormCalculadora.jsx
+│   └── FormCalculadora.css
+├── App.jsx
+└── main.jsx
+```
+
+## Sobre
+
+O projeto foi desenvolvido para praticar os conceitos básicos do React, como componentes, `useState`, eventos e estilização com CSS.
